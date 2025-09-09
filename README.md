@@ -1,3 +1,5 @@
+Tutorial para a aplicação main.py
+
 Este projeto é uma aplicação Python simples que simula a interação com dois modelos de linguagem (ChatGPT e BERT) e compara suas respostas usando padrões de projeto básicos.
 
 ## Objetivo:
