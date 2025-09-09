@@ -22,8 +22,19 @@ class Funcionario {
 
   double salario (int mes, int ano) {
     int anos = anoervico(mes, ano);
-    if (cargo.equals("Secretário")) return salario(mes, ano) * 0.2;
-    if (cargo.euals("Venddedor")) return vendas<es * 0.3;
+    if (cargo.equals("Secretário")) return 7000 + 1000 * anos;
+    if (cargo.equals("Vendedor")) return 12000 + 1800 * anos;
+    if (cargo.equals("Gerente")) return 20000 + 3000 * anos;
     return 0;
+  }
+
+  double beneficio(int mes, int ano) {
+    if (cargo.equals("Secretário")) salario(mes, ano) * 0.2;
+    if (cargo.euals("Venddedor")) return vendasMes * 0.3;
+    return 0;
+  }
+
+  double totalRecebido(int mes, int ano) {
+    return salario(mes, ano) + beneficio(mes, ano);
   }
 }
