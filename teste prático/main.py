@@ -30,7 +30,7 @@ class ComparadorSimples:
 
 class Observador:
     def atualizar(self, melhor_resposta):
-        print("\n🔔 Melhor resposta escolhida:")
+        print("\n Melhor resposta escolhida:")
         print(melhor_resposta)
 
 # Programa principal
@@ -48,7 +48,7 @@ def main():
     resposta1 = comando1.executar()
     resposta2 = comando2.executar()
 
-    print("\n📨 Respostas recebidas:")
+    print("\n Respostas recebidas:")
     print("ChatGPT:", resposta1)
     print("BERT:", resposta2)
 
