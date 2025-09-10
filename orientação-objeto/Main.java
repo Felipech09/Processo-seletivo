@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-  public static void main(String[]args) {
-    
-List<Funcionario> funcionarios = new ArrayList<>();
+    public static void main(String[] args) {
+        
+        List<Funcionario> funcionarios = new ArrayList<>();
 
         // Secretários
         Funcionario jorge = new Funcionario("Jorge Carvalho", "Secretário", 1, 2018);
@@ -88,4 +88,3 @@ List<Funcionario> funcionarios = new ArrayList<>();
         System.out.println("Vendedor que mais vendeu: " + maiorVenda.nome);
     }
 }
-
